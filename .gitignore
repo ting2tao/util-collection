@@ -1,5 +1,4 @@
-# Binaries for programs and plugins
-*.exe
+# Binaries for programs and plugins*.exe
 *.exe~
 *.dll
 *.so
@@ -10,6 +9,14 @@
 
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
+.bin
 
-# Dependency directories (remove the comment below to include it)
-# vendor/
+# Dependency directories (remove the comment below to include it)# vendor/
+# go mod
+go.sum
+
+# idea
+.idea
+.idea/workspace.xml
+.idea/usage.statistics.xml
+.idea/tasks.xml
